@@ -1,0 +1,544 @@
+/* ------------------------------------------------ */
+/* PROJECT PAGE */
+/* ------------------------------------------------ */
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: var(--text-dark);
+    background-color: var(--text-light);
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: var(--text-dark);
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent-light);
+}
+
+
+/* ========================================= */
+/* PROJECT HEADER */
+/* ========================================= */
+
+.project-header{
+
+    position: fixed;
+
+    top: 30px;
+    left: 35px;
+
+    width:100%;
+
+    background:#ffffff;
+
+    z-index:900;
+
+}
+
+.project-header-inner{
+
+    padding:30px 35px 0;
+    color:#D88C9A;
+
+}
+
+.project-title{
+    color:#D88C9A;
+
+    margin:0;
+
+    font-size:1.4rem;
+
+    font-weight:100;
+
+    letter-spacing:.05em;
+
+}
+.project-header-line{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+}
+
+.hero-title{
+
+    margin:0;
+
+    color:#D88C9A;
+
+    font-size:1.4rem;
+
+    font-weight:300;
+
+    letter-spacing:.05em;
+
+}
+
+.project-section{
+
+    margin:0;
+
+    color:#D88C9A;
+
+    opacity:1;
+
+    font-size:1.4rem;
+
+    font-weight:300;
+
+    letter-spacing:.05em;
+
+}
+
+.project-name{
+
+    margin-top:60px;
+
+    margin-bottom:0;
+
+    font-size:4rem;
+
+    font-weight:300;
+
+    line-height:1;
+
+    color:#D88C9A;
+
+}
+/* ------------------------------------------------ */
+/* FULL WIDTH RENDERS */
+/* ------------------------------------------------ */
+
+.render-full{
+
+    margin:140px 0;
+
+}
+
+.render-full img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+
+
+/* ------------------------------------------------ */
+/* PLANS */
+/* ------------------------------------------------ */
+
+.plan-full{
+
+    margin:140px auto;
+
+    width:92%;
+
+}
+
+.plan-full img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+
+
+/* ------------------------------------------------ */
+/* SINGLE DIAGRAM */
+/* ------------------------------------------------ */
+
+.diagram{
+
+    width:50%;
+
+    margin:100px auto;
+
+}
+
+.diagram img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+/* ------------------------------------------------ */
+/* logo
+/* ------------------------------------------------ */
+
+.diagram-logo{
+
+    width:180px;      /* можешь менять: 120, 150, 200 */
+    margin:18px auto 12px;
+
+}
+
+.diagram-logo img{
+
+    width:100%;
+    display:block;
+
+}
+
+.diagram img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+
+
+
+/* ------------------------------------------------ */
+/* TWO DIAGRAMS */
+/* ------------------------------------------------ */
+
+.diagram-grid{
+
+    width:80%;
+
+    margin:120px auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:40px;
+
+}
+
+.diagram-grid img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+
+
+/* ========================================= */
+/* PROJECT INTRO */
+/* ========================================= */
+
+.project-text{
+
+    max-width:620px;
+
+    margin:170px auto 170px;
+
+}
+
+.project-text p{
+
+    margin:0;
+
+    color:#D88C9A;
+
+    font-size:1rem;
+
+    font-weight:550;
+
+    line-height:1.5;
+
+    letter-spacing:.01em;
+
+    text-align:left;
+
+}
+:root{
+
+    --meta-color:#D88C9A;
+
+}
+
+.project-info{
+
+    width:min(1500px,90vw);
+
+    margin:220px auto;
+
+}
+
+.project-meta{
+
+    display:grid;
+
+    grid-template-columns:repeat(5,1fr);
+
+    gap:70px;
+
+    align-items:start;
+
+}
+
+.meta-title{
+
+    display:block;
+
+    margin-bottom:14px;
+
+    font-size:.78rem;
+
+    font-weight:600;
+
+    text-transform:uppercase;
+
+    letter-spacing:.18em;
+
+    color:var(--meta-color);
+
+    opacity:.55;
+
+}
+
+.project-meta p{
+
+    margin:0;
+
+    color:var(--meta-color);
+
+    font-size:1rem;
+
+    line-height:1.75;
+
+}
+/* =========================
+   WEBSITE FOOTER
+========================= */
+
+.site-footer{
+
+    background:#ffffff;
+
+    padding:50px;
+
+}
+
+.footer-content{
+
+    width:130%;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr 1fr;
+
+    gap:80px;
+
+}
+
+.footer-column{
+
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+
+}
+
+.footer-column p{
+
+    color:#D88C9A !important;
+
+    font-size:1rem;
+    
+
+    line-height:1.6;
+
+}
+
+.footer-column a{
+
+    color:#D88C9A !important;
+
+    text-decoration:none;
+
+}
+
+.footer-column a:hover{
+
+    opacity:.7;
+
+}
+
+.footer-about{
+
+    color:#D88C9A !important;
+
+    font-size:1rem;
+
+    line-height:1.7;
+
+    text-align:justify;
+    text-justify:inter-word;
+    hyphens:auto;
+
+    max-width:1000px;
+
+}
+
+.site-footer .copy-email{
+
+    color:#D88C9A !important;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.site-footer .copy-email:hover{
+
+    opacity:.7;
+
+}
+
+#footerCopyMessage{
+
+    color:#D88C9A;
+
+    opacity:0;
+
+    transition:.3s;
+
+}
+html,
+body{
+    overflow-x:hidden;
+    width:100%;
+}
+
+
+/* ------------------------------------------------ */
+/* DARK MODE */
+/* ------------------------------------------------ */
+
+body.dark-mode{
+
+    background:#1b1b1b;
+
+}
+
+body.dark-mode .project-header{
+
+    background:#1b1b1b;
+
+}
+
+body.dark-mode .project-owner,
+body.dark-mode .project-name,
+body.dark-mode .project-text p,
+body.dark-mode .meta-title,
+body.dark-mode .project-meta p,
+body.dark-mode .footer-column p,
+body.dark-mode .footer-column a,
+body.dark-mode #copyMessage{
+
+    color:#EAE0D5;
+
+}
+
+
+
+/* ------------------------------------------------ */
+/* RESPONSIVE */
+/* ------------------------------------------------ */
+
+@media(max-width:1000px){
+
+    .project-content{
+
+        width:94vw;
+
+        margin-top:190px;
+
+    }
+
+    .project-name{
+
+        font-size:2rem;
+
+    }
+
+    .project-text{
+
+        width:100%;
+
+    }
+
+    .diagram{
+
+        width:100%;
+
+    }
+
+    .diagram-grid{
+
+        width:100%;
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+
+    }
+
+    .plan-full{
+
+        width:100%;
+
+    }
+
+    .project-meta{
+
+        grid-template-columns:1fr;
+
+        gap:30px;
+
+    }
+
+    .footer-content{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    } 
+/*низя юзать фотки хихих*/
+}
+img{
+
+    -webkit-user-drag:none;
+    user-select:none;
+    -webkit-user-select:none;
+
+}
+
+img{
+
+    pointer-events:auto;
+
+    user-select:none;
+
+}
