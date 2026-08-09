@@ -1389,7 +1389,7 @@ body.dark-mode .contact-label{
    DARK MODE — MAIN NAV
 ========================= */
 
-body.dark-mode .main-nav .nav-link {
+body.dark-mode .hero-overlay > .main-nav .nav-link {
     color: #333 !important;
 }
 
@@ -1415,6 +1415,50 @@ body.dark-mode .main-nav .nav-link:hover {
 .info-panel .copy-email:hover {
     color: #EAE0D5 !important;
     opacity: 0.7;
+}
+
+
+.info-panel .nav-link {
+    color: #EAE0D5 !important;
+}
+
+.info-panel .nav-link:hover {
+    color: #EAE0D5 !important;
+    opacity: 0.7;
+}
+
+.info-panel .copy-email,
+.info-panel .info-column a {
+    color: #EAE0D5 !important;
+}
+
+/* ===== INFO PANEL — ALWAYS LIGHT TEXT ===== */
+
+.info-panel .info-title,
+.info-panel .nav-link,
+.info-panel .info-column p,
+.info-panel .copy-email,
+.info-panel .info-column a,
+.info-panel #copyMessage {
+    color: #EAE0D5 !important;
+}
+
+body.dark-mode .info-panel .nav-link {
+    color: #EAE0D5 !important;
+}
+
+body.dark-mode .info-panel .info-title {
+    color: #EAE0D5 !important;
+}
+
+body.dark-mode .info-panel .info-column p,
+body.dark-mode .info-panel .info-column a,
+body.dark-mode .info-panel .copy-email {
+    color: #EAE0D5 !important;
+}
+
+body.dark-mode #infoPanel nav.main-nav a.nav-link {
+    color: #EAE0D5 !important;
 }
 
 

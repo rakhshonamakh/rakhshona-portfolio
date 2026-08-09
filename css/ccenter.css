@@ -643,3 +643,17 @@ img{
     user-select:none;
 
 }
+
+.info-panel .nav-link {
+    color: #EAE0D5 !important;
+}
+
+.info-panel .nav-link:hover {
+    color: #EAE0D5 !important;
+    opacity: 0.7;
+}
+
+.info-panel .copy-email,
+.info-panel .info-column a {
+    color: #EAE0D5 !important;
+}
