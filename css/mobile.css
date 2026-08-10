@@ -631,4 +631,19 @@
 
 }
 
-.hero-title { font-weight: 400 !important; }
+.hero-title { font-weight: 600 !important; }
+
+@media screen and (max-width: 768px) {
+    video {
+        width: 92vw !important;
+        max-width: 92vw !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img[src*="rebrick/logo.png"] {
+        width: 180px !important;
+        height: auto !important;
+    }
+}
