@@ -611,3 +611,24 @@
 .hero-title {
     font-size: 1.4rem !important;
 }
+
+@media screen and (max-width: 768px) {
+
+    /* ===== PROJECT TEXT — MOBILE ===== */
+
+    .project-text,
+    .project-description,
+    .project-content p,
+    .project-content .text,
+    .description,
+    .text-block {
+        font-size: 0.9rem !important;
+        font-weight: 400 !important;
+        line-height: 1.5 !important;
+        margin-top: 10px !important;
+        margin-bottom: 20px !important;
+    }
+
+}
+
+.hero-title { font-weight: 400 !important; }
