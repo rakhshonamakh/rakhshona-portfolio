@@ -26,7 +26,7 @@
     }
 
     .hero-title {
-        font-size: 2rem;
+        font-size: 1rem;
         font-weight: 500;
     }
 
@@ -610,33 +610,4 @@
 
 .hero-title {
     font-size: 1.4rem !important;
-}
-
-@media screen and (max-width: 768px) {
-
-    /* NAME */
-    .hero-overlay .hero-title {
-        font-size: 1.2rem !important;
-        font-weight: 500 !important;
-        line-height: 1.2 !important;
-        margin: 0 !important;
-    }
-
-    /* HEADER LINE */
-    .hero-overlay .project-header-line {
-        position: static !important;
-        display: block !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-    /* PROJECTS / CV / CONTACT TITLE */
-    .hero-overlay .project-name {
-        position: static !important;
-        display: block !important;
-        font-size: 2.2rem !important;
-        margin: 8px 0 0 0 !important;
-        padding: 0 !important;
-    }
-
 }
