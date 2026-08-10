@@ -632,11 +632,3 @@
 }
 
 .hero-title { font-weight: 400 !important; }
-
-
-@media screen and (max-width: 768px) {
-    img[src*="rebrick/logo.png"] {
-        width: 300px !important;
-        height: auto !important;
-    }
-}
